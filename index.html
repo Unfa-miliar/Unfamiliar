@@ -152,6 +152,14 @@
 
   <!-- Grid -->
   <main class="container mx-auto px-4 md:px-6 max-w-7xl">
+    <!-- Convention Photo -->
+    <div class="mb-12">
+      <div class="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
+        <img src="https://raw.githubusercontent.com/voxmusicbar/VOX-Music-Bar/main/S__144891918.jpg" alt="VOX 公約"
+          class="w-full h-auto object-contain" />
+      </div>
+    </div>
+
     <div id="cocktail-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 mb-12">
       <!-- Cards injected by JS -->
     </div>
@@ -407,15 +415,36 @@
         ]
       },
       {
+        id: "shot",
+        name: "Shot",
+        enName: "Shot",
+        icon: "liquor",
+        items: [
+          { name: "伏特加", enName: "Vodka", price: 150 },
+          { name: "龍舌蘭", enName: "Tequila", price: 150 },
+          { name: "梅酒", enName: "Plum Wine", price: 150 },
+          { name: "野格", enName: "Jägermeister", price: 200 },
+          { name: "生命之水", enName: "Spirytus Rektyfikowany", price: 250 },
+          { name: "調酒師特調", enName: "Bartender's Special", price: 150 },
+          { name: "摩天輪", enName: "Shot Wheel", price: 2000 }
+        ]
+      },
+      {
         id: "spirits",
         name: "烈酒",
         enName: "Spirits",
         icon: "liquor",
         items: [
+          { name: "野格香甜酒（搭紅牛四罐）", enName: "Jägermeister (with 4 Red Bulls)", price: 3200 },
           { name: "軒尼詩 V.S.O.P", enName: "HENNESSY V.S.O.P", price: 4000 },
           { name: "大摩 12年", enName: "DALMORE 12Y", price: 4000 },
           { name: "百富 12年", enName: "BALVENIE 12Y", price: 3600 },
-          { name: "格蘭菲迪15年", enName: "GLENFIDDICH 15Y", price: 3200 }
+          { name: "格蘭菲迪15年", enName: "GLENFIDDICH 15Y", price: 3200 },
+          { name: "約翰走路黑牌威士忌", enName: "Johnnie Walker Black Label", price: 400 },
+          { name: "傑克丹尼爾田納西威士忌", enName: "Jack Daniel's Tennessee Whiskey", price: 400 },
+          { name: "美格波本威士忌", enName: "Maker's Mark Bourbon", price: 400 },
+          { name: "軒尼斯VSOP", enName: "HENNESSY V.S.O.P (Glass)", price: 400 },
+          { name: "人頭馬VSOP", enName: "RÉMY MARTIN V.S.O.P (Glass)", price: 400 }
         ]
       },
       {
