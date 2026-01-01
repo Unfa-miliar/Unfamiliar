@@ -153,8 +153,7 @@
     <!-- Convention Photo -->
     <div class="mt-14 md:mt-16 mb-12">
       <div class="relative overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
-        <img src="https://raw.githubusercontent.com/Unfa-miliar/Unfamiliar/main/S__172515568.jpg" alt="VOX 公約"
-          class="w-full h-auto object-contain" />
+        <img id="hero-image" src="" alt="VOX 公約" class="w-full h-auto object-contain" />
       </div>
     </div>
 
@@ -311,6 +310,10 @@
         const data = await response.json();
         COCKTAILS = data.COCKTAILS;
         DRINK_CATEGORIES = data.DRINK_CATEGORIES;
+
+        if (data.HERO_IMAGE) {
+          document.getElementById('hero-image').src = data.HERO_IMAGE;
+        }
 
         initHero();
         renderGrid();
