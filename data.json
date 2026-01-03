@@ -74,9 +74,11 @@
       "image": "https://raw.githubusercontent.com/milk3462-art/VOX-Music-Bar/main/4.png"
     },
     {
-      "id": "5",
       "name": "花王木木",
+      "enName": "",
       "price": 420,
+      "id": "5",
+      "image": "https://raw.githubusercontent.com/voxmusicbar/VOX-Music-Bar/main/5.jpg",
       "ingredients": [
         "伏特加 (Vodka)",
         "蜜桃玫瑰茶 (Peach Rose Tea)",
@@ -91,8 +93,7 @@
         "茶感": 1,
         "果香": 2,
         "花香": 4
-      },
-      "image": "https://raw.githubusercontent.com/voxmusicbar/VOX-Music-Bar/main/5.jpg"
+      }
     },
     {
       "id": "6",
