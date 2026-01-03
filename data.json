@@ -193,6 +193,26 @@
         "鹹感": 1
       },
       "image": "https://raw.githubusercontent.com/milk3462-art/VOX-Music-Bar/main/11.png"
+    },
+    {
+      "name": "觀音喝拿鐵",
+      "enName": "",
+      "price": 420,
+      "id": "1767465256863",
+      "image": "https://raw.githubusercontent.com/Unfa-miliar/Unfamiliar/main/images/item_1767465173046.png",
+      "ingredients": [
+        "琴酒(Gin)",
+        "鐵觀音",
+        "咖啡",
+        "鮮奶油",
+        "牛奶"
+      ],
+      "flavors": {
+        "濃度": 3,
+        "甜感": 4,
+        "茶感": 2,
+        "苦感": 1
+      }
     }
   ],
   "DRINK_CATEGORIES": [
